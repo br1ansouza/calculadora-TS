@@ -36,12 +36,12 @@ const calc = new Calculadora();
 const solicitarEntrada = () => {
   rl.question(
     `Escolha uma operação 
-    Para adicionar, digite:   1.
-    Para subtrair, digite:    2.
-    Para multiplicar, digite: 3.
-    Para dividir, digite:     4.
-    Para porcentagem, digite: 5.
-    `,
+  1 - Adicionar
+  2 - Subtrair
+  3 - Multiplicar
+  4 - Dividir
+  5 - Porcentagem
+   Digite o número correspondente a operação:  `,
     (operacao) => {
       rl.question("Digite o primeiro número: ", (num1) => {
         rl.question("Digite o segundo número: ", (num2) => {
